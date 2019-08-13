@@ -24,6 +24,9 @@ spring:
     timeout: 0
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://paascloud-db-mysql:3306/paascloud_mdc?characterEncoding=utf8&useSSL=false
+    username: root
+    password: Bn71v6@Fc668868?lyrmail@126.com
     filters: stat,wall
     druid:
       initial-size: 50
