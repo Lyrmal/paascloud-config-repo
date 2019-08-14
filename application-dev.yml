@@ -22,6 +22,11 @@ spring:
     password: 123456
     port: 6379
     timeout: 0
+    pool:
+      max-active: 8
+      min-idle: 0
+      max-idle: 8
+      max-wait: -1
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://paascloud-db-mysql:3306/paascloud_mdc?characterEncoding=utf8&useSSL=false
